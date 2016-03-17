@@ -23,6 +23,9 @@
     
 }
 - (IBAction)onButtonTapped:(UIButton *)sender {
+    double addEndText = self.addEndText.text.doubleValue;
+    double addEndTextTwo = self.addEndTextTwo.text.doubleValue;
+    
     if ([self.operationLabel.text isEqualToString:@"+"]) {
         
     } else if ([self.operationLabel.text isEqualToString:@"-"]){
@@ -32,6 +35,7 @@
     } else {
     }
     
-    }
+}
+
 
 @end
