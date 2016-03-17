@@ -20,9 +20,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
 - (IBAction)onButtonTapped:(UIButton *)sender {
-}
+    if ([self.operationLabel.text isEqualToString:@"+"]) {
+        
+    } else if ([self.operationLabel.text isEqualToString:@"-"]){
+    
+    } else if ([self.operationLabel.text isEqualToString:@"x"]){
+        
+    } else {
+    }
+    
+    }
 
 @end

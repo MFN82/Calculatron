@@ -71,31 +71,31 @@
                                 </variation>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="aat-AV-SaB">
-                                <rect key="frame" x="0.0" y="113" width="184" height="30"/>
+                                <rect key="frame" x="0.0" y="113" width="120" height="30"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oc7-D4-60y">
-                                        <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oc7-D4-60y">
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
                                         <state key="normal" title="+"/>
                                         <connections>
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7nZ-Jp-l5a"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="deB-In-RKa">
-                                        <rect key="frame" x="46" y="0.0" width="46" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="deB-In-RKa">
+                                        <rect key="frame" x="30" y="0.0" width="30" height="30"/>
                                         <state key="normal" title="-"/>
                                         <connections>
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iag-J4-tAs"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tMV-oI-rYW">
-                                        <rect key="frame" x="92" y="0.0" width="46" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tMV-oI-rYW">
+                                        <rect key="frame" x="60" y="0.0" width="30" height="30"/>
                                         <state key="normal" title="x"/>
                                         <connections>
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Eb0-ih-H56"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jvg-Pi-HT5">
-                                        <rect key="frame" x="138" y="0.0" width="46" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jvg-Pi-HT5">
+                                        <rect key="frame" x="90" y="0.0" width="30" height="30"/>
                                         <state key="normal" title="/"/>
                                         <connections>
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y8W-T0-Eti"/>
