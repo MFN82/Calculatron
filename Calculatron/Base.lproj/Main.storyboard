@@ -17,22 +17,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="dnn-Bt-0KS">
-                                <rect key="frame" x="6" y="51" width="365" height="79"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="dnn-Bt-0KS">
+                                <rect key="frame" x="6" y="51" width="126" height="30"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ugc-P9-Cg6">
-                                        <rect key="frame" x="20" y="20" width="97" height="30"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ugc-P9-Cg6">
+                                        <rect key="frame" x="0.0" y="0.0" width="42" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jt1-ta-k8u">
-                                        <rect key="frame" x="154" y="20" width="86" height="39"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jt1-ta-k8u">
+                                        <rect key="frame" x="42" y="0.0" width="42" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eC7-4q-9Et">
-                                        <rect key="frame" x="248" y="25" width="97" height="30"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eC7-4q-9Et">
+                                        <rect key="frame" x="84" y="0.0" width="42" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -57,7 +57,7 @@
                                     <constraint firstAttribute="height" constant="21" id="Obf-bg-3Zb"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -70,24 +70,36 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="aat-AV-SaB">
-                                <rect key="frame" x="0.0" y="113" width="253" height="70"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="aat-AV-SaB">
+                                <rect key="frame" x="0.0" y="113" width="184" height="30"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oc7-D4-60y">
-                                        <rect key="frame" x="20" y="20" width="46" height="30"/>
-                                        <state key="normal" title="Button"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oc7-D4-60y">
+                                        <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+                                        <state key="normal" title="+"/>
+                                        <connections>
+                                            <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7nZ-Jp-l5a"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="deB-In-RKa">
-                                        <rect key="frame" x="79" y="20" width="46" height="30"/>
-                                        <state key="normal" title="Button"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="deB-In-RKa">
+                                        <rect key="frame" x="46" y="0.0" width="46" height="30"/>
+                                        <state key="normal" title="-"/>
+                                        <connections>
+                                            <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iag-J4-tAs"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tMV-oI-rYW">
-                                        <rect key="frame" x="133" y="20" width="46" height="30"/>
-                                        <state key="normal" title="Button"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tMV-oI-rYW">
+                                        <rect key="frame" x="92" y="0.0" width="46" height="30"/>
+                                        <state key="normal" title="x"/>
+                                        <connections>
+                                            <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Eb0-ih-H56"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jvg-Pi-HT5">
-                                        <rect key="frame" x="187" y="20" width="46" height="30"/>
-                                        <state key="normal" title="Button"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jvg-Pi-HT5">
+                                        <rect key="frame" x="138" y="0.0" width="46" height="30"/>
+                                        <state key="normal" title="/"/>
+                                        <connections>
+                                            <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y8W-T0-Eti"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -122,12 +134,12 @@
                                 <exclude reference="CtF-YV-63c"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="9zB-v4-y4U"/>
-                                <exclude reference="o5e-pR-W8W"/>
-                                <exclude reference="ybj-iB-QXf"/>
                                 <exclude reference="7l6-aY-Hhh"/>
                                 <exclude reference="Ce2-xw-tZ2"/>
                                 <exclude reference="eMf-Ts-BTp"/>
+                                <exclude reference="9zB-v4-y4U"/>
+                                <exclude reference="o5e-pR-W8W"/>
+                                <exclude reference="ybj-iB-QXf"/>
                                 <exclude reference="Wma-QS-Vio"/>
                                 <exclude reference="eIi-JP-zNj"/>
                                 <exclude reference="qfC-KD-lOX"/>
@@ -138,18 +150,24 @@
                                 <include reference="CtF-YV-63c"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="9zB-v4-y4U"/>
-                                <include reference="o5e-pR-W8W"/>
-                                <include reference="ybj-iB-QXf"/>
                                 <include reference="7l6-aY-Hhh"/>
                                 <include reference="Ce2-xw-tZ2"/>
                                 <include reference="eMf-Ts-BTp"/>
+                                <include reference="9zB-v4-y4U"/>
+                                <include reference="o5e-pR-W8W"/>
+                                <include reference="ybj-iB-QXf"/>
                                 <include reference="Wma-QS-Vio"/>
                                 <include reference="eIi-JP-zNj"/>
                                 <include reference="qfC-KD-lOX"/>
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="addEndText" destination="ugc-P9-Cg6" id="fk4-hR-Fy2"/>
+                        <outlet property="addEndTextTwo" destination="eC7-4q-9Et" id="M3w-jC-zZ9"/>
+                        <outlet property="answerLabel" destination="CtF-YV-63c" id="rLa-9Z-v31"/>
+                        <outlet property="operationLabel" destination="jt1-ta-k8u" id="YbO-Db-WuL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
