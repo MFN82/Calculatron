@@ -23,6 +23,8 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 - (IBAction)onButtonTapped:(UIButton *)sender {
+    double addEndText = self.addEndText.text.doubleValue;
+    double addEndTextTwo = self.addEndTextTwo.text.doubleValue;
 }
 
 @end
